@@ -144,6 +144,7 @@ body {
   background-color: rgb(238, 103, 103);
   border-radius: 50%;
   z-index: 2;
+  cursor: pointer;
 }
 
 #red-dot-1 {
@@ -179,6 +180,23 @@ body {
 #red-dot-7 {
   bottom: 80px;
   left: 347px;
+}
+/* all red dots hover */
+[id^="red-dot-hover-"] {
+  visibility: hidden;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 30px;
+  background-color: rgb(190, 86, 86);
+  bottom: 10px;
+  left: -12px;
+  font-size: 14px;
+  color: rgb(255, 255, 255);
+  box-shadow: 2px 2px 7px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
 }
 
 /* Blue charts */
