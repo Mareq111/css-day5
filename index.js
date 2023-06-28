@@ -46,7 +46,7 @@ thirdRedDot.addEventListener("mouseenter", function () {
 thirdRedDot.addEventListener("mouseleave", function () {
   thirdRedDotHover.style.visibility = "hidden";
   thirdRedDotHover.style.opacity = "0";
-thirdRedDotHover.style.transform = "translateY(-5px)";
+  thirdRedDotHover.style.transform = "translateY(-5px)";
 });
 
 /* fourth red dot animation */
@@ -63,7 +63,7 @@ fourthRedDot.addEventListener("mouseenter", function () {
 fourthRedDot.addEventListener("mouseleave", function () {
   fourthRedDotHover.style.visibility = "hidden";
   fourthRedDotHover.style.opacity = "0";
-fourthRedDotHover.style.transform = "translateY(-0px)";
+  fourthRedDotHover.style.transform = "translateY(-0px)";
 });
 
 /* fifthRedDotHover red dot animation */
@@ -80,7 +80,7 @@ fifthRedDotHoverRedDot.addEventListener("mouseenter", function () {
 fifthRedDotHoverRedDot.addEventListener("mouseleave", function () {
   fifthRedDotHoverRedDotHover.style.visibility = "hidden";
   fifthRedDotHoverRedDotHover.style.opacity = "0";
-fifthRedDotHoverRedDotHover.style.transform = "translateY(-5px)";
+  fifthRedDotHoverRedDotHover.style.transform = "translateY(-5px)";
 });
 
 /*sixthRedDotHover red dot animation */
@@ -88,27 +88,28 @@ fifthRedDotHoverRedDotHover.style.transform = "translateY(-5px)";
 const sixthRedDotHoverRedDot = document.getElementById("red-dot-6");
 const sixthRedDotHoverRedDotHover = document.getElementById("red-dot-hover-6");
 sixthRedDotHoverRedDot.addEventListener("mouseenter", function () {
-sixthRedDotHoverRedDotHover.style.visibility = "visible";
-sixthRedDotHoverRedDotHover.style.opacity = "1";
-sixthRedDotHoverRedDotHover.style.transform = "translateY(-10px)";
+  sixthRedDotHoverRedDotHover.style.visibility = "visible";
+  sixthRedDotHoverRedDotHover.style.opacity = "1";
+  sixthRedDotHoverRedDotHover.style.transform = "translateY(-10px)";
 });
 sixthRedDotHoverRedDot.addEventListener("mouseleave", function () {
-sixthRedDotHoverRedDotHover.style.visibility = "hidden";
-sixthRedDotHoverRedDotHover.style.opacity = "0";
-sixthRedDotHoverRedDotHover.style.transform = "translateY(-5px)";
+  sixthRedDotHoverRedDotHover.style.visibility = "hidden";
+  sixthRedDotHoverRedDotHover.style.opacity = "0";
+  sixthRedDotHoverRedDotHover.style.transform = "translateY(-5px)";
 });
 
 /*seventhRedDotHover red dot animation */
 
 const seventhRedDotHoverRedDot = document.getElementById("red-dot-7");
-const seventhRedDotHoverRedDotHover = document.getElementById("red-dot-hover-7");
+const seventhRedDotHoverRedDotHover =
+  document.getElementById("red-dot-hover-7");
 seventhRedDotHoverRedDot.addEventListener("mouseenter", function () {
-seventhRedDotHoverRedDotHover.style.visibility = "visible";
-seventhRedDotHoverRedDotHover.style.opacity = "1";
-seventhRedDotHoverRedDotHover.style.transform = "translateY(-10px)";
+  seventhRedDotHoverRedDotHover.style.visibility = "visible";
+  seventhRedDotHoverRedDotHover.style.opacity = "1";
+  seventhRedDotHoverRedDotHover.style.transform = "translateY(-10px)";
 });
 seventhRedDotHoverRedDot.addEventListener("mouseleave", function () {
-seventhRedDotHoverRedDotHover.style.visibility = "hidden";
-seventhRedDotHoverRedDotHover.style.opacity = "0";
-seventhRedDotHoverRedDotHover.style.transform = "translateY(-5px)";
+  seventhRedDotHoverRedDotHover.style.visibility = "hidden";
+  seventhRedDotHoverRedDotHover.style.opacity = "0";
+  seventhRedDotHoverRedDotHover.style.transform = "translateY(-5px)";
 });

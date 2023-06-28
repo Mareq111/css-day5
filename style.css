@@ -197,17 +197,7 @@ body {
   color: rgb(255, 255, 255);
   box-shadow: 2px 2px 7px 0 rgba(0, 0, 0, 0.2);
   border-radius: 5px;
-  transition: transform 0.7s ease-in-out;
 }
-
-
-
-
-
-
-
-
-
 
 /* Blue charts */
 
@@ -216,13 +206,6 @@ body {
   height: 1px;
   width: 400px;
   margin: 0;
-}
-
-#line-svg-blue {
-  position: absolute;
-  height: 100px;
-  width: 360px;
-  bottom: 40px;
 }
 
 .line-blue {
@@ -245,33 +228,49 @@ body {
 }
 
 #blue-dot-2 {
-  bottom: 50px;
-  left: 66px;
+  bottom: 20px;
+  left: 60px;
 }
 
 #blue-dot-3 {
-  bottom: 27px;
-  left: 125px;
+  bottom: -3px;
+  left: 117px;
 }
 
 #blue-dot-4 {
-  bottom: 40px;
-  left: 182px;
+  bottom: 10px;
+  left: 176px;
 }
 
 #blue-dot-5 {
-  bottom: 29px;
-  left: 238px;
+  bottom: 0;
+  left: 229px;
 }
 
 #blue-dot-6 {
-  bottom: 20px;
-  left: 291px;
+  bottom: -9px;
+  left: 284px;
 }
 
 #blue-dot-7 {
-  bottom: 25px;
-  left: 347px;
+  bottom: -5px;
+  left: 337px;
+}
+[id^="blue-dot-hover-"] {
+  visibility: hidden;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 30px;
+  background-color: rgb(190, 86, 86);
+  bottom: 10px;
+  left: -12px;
+  font-size: 14px;
+  color: rgb(255, 255, 255);
+  box-shadow: 2px 2px 7px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
 }
 
 /* days */

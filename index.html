@@ -1,116 +1,129 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Day 5</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
 
-  <body>
-    <div class="container">
-      <div class="box">
-        <div class="header-background">
-          <!-- header-first-line -->
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Day 5</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
 
-          <div class="first-line">
-            <span id="weekly-report">WEEKLY REPORT</span>
-            <span id="ravenue"> Revenue</span>
-          </div>
+<body>
+  <div class="container">
+    <div class="box">
+      <div class="header-background">
+        <!-- header-first-line -->
 
-          <!-- header-second-line -->
-
-          <div class="second-line">
-            <span id="date-ranges">01. Feb - 07. Feb</span>
-            <span id="profit">$ 3621.79</span>
-          </div>
+        <div class="first-line">
+          <span id="weekly-report">WEEKLY REPORT</span>
+          <span id="ravenue"> Revenue</span>
         </div>
 
-        <!-- all parameters and charts -->
+        <!-- header-second-line -->
 
-        <div class="parameters">
-          <span id="views-red-rectangle"></span>
-          <span id="views">Views</span>
-          <span id="purchases-blue-rectangle"></span>
-          <span id="purchases">Purchases</span>
-        </div>
-        <hr class="line-background-top" />
-        <hr class="line-background-middle" />
-        <hr class="line-background-bottom" />
-        <div class="days-calendar">
-          <!-- RED-LINE-CHART -->
-
-          <div class="red-line-chart">
-            <svg id="line-svg">
-              <line class="line-red" x1="69" y1="47" x2="11" y2="87" />
-              <line class="line-red" x1="128" y1="66" x2="68" y2="46" />
-              <line class="line-red" x1="130" y1="66" x2="185" y2="37" />
-              <line class="line-red" x1="185" y1="37" x2="241" y2="77" />
-              <line class="line-red" x1="241" y1="77" x2="295" y2="92" />
-              <line class="line-red" x1="295" y1="92" x2="352" y2="56" />
-            </svg>
-
-            <!-- red dots -->
-
-            <span id="red-dot-1" class="red-dot">
-              <span id="red-dot-hover-1">458</span>
-            </span>
-            <span id="red-dot-2" class="red-dot">
-              <span id="red-dot-hover-2">812</span>
-            </span>
-            <span id="red-dot-3" class="red-dot">
-              <span id="red-dot-hover-3">746</span>
-            </span>
-            <span id="red-dot-4" class="red-dot">
-              <span id="red-dot-hover-4">877</span>
-            </span>
-            <span id="red-dot-5" class="red-dot">
-              <span id="red-dot-hover-5">517</span>
-            </span>
-            <span id="red-dot-6" class="red-dot">
-              <span id="red-dot-hover-6">434</span>
-            </span>
-            <span id="red-dot-7" class="red-dot">
-              <span id="red-dot-hover-7">758</span>
-            </span>
-          </div>
-
-          <!-- BLUE-LINE-CHART -->
-
-          <div class="blue-line-chart">
-            <svg id="line-svg">
-              <line class="line-blue" x1="70" y1="86" x2="9" y2="107" />
-              <line class="line-blue" x1="70" y1="86" x2="128" y2="110" />
-              <line class="line-blue" x1="185" y1="97" x2="128" y2="110" />
-              <line class="line-blue" x1="185" y1="97" x2="241" y2="107" />
-              <line class="line-blue" x1="241" y1="107" x2="295" y2="116" />
-              <line class="line-blue" x1="295" y1="116" x2="352" y2="111" />
-            </svg>
-
-            <!-- blue dots -->
-
-            <!--  26,41,22,36,25,13,20-->
-            <span id="blue-dot-1" class="blue-dot"></span>
-            <span id="blue-dot-2" class="blue-dot"></span>
-            <span id="blue-dot-3" class="blue-dot"></span>
-            <span id="blue-dot-4" class="blue-dot"></span>
-            <span id="blue-dot-5" class="blue-dot"></span>
-            <span id="blue-dot-6" class="blue-dot"></span>
-            <span id="blue-dot-7" class="blue-dot"></span>
-          </div>
-
-          <!-- days of week -->
-
-          <span id="mon">MON</span>
-          <span id="tue">TUE</span>
-          <span id="wed">WED</span>
-          <span id="thu">THU</span>
-          <span id="fri">FRI</span>
-          <span id="sat">SAT</span>
-          <span id="sun">SUN</span>
+        <div class="second-line">
+          <span id="date-ranges">01. Feb - 07. Feb</span>
+          <span id="profit">$ 3621.79</span>
         </div>
       </div>
-    </div>
-    <script src="index.js"></script>
-  </body>
+
+      <!-- all parameters and charts -->
+
+      <div class="parameters">
+        <span id="views-red-rectangle"></span>
+        <span id="views">Views</span>
+        <span id="purchases-blue-rectangle"></span>
+        <span id="purchases">Purchases</span>
+      </div>
+      <hr class="line-background-top" />
+      <hr class="line-background-middle" />
+      <hr class="line-background-bottom" />
+      <div class="days-calendar">
+
+        <!-- RED-LINE-CHART -->
+
+        <div class="red-line-chart">
+          <svg id="line-svg">
+            <line class="line-red" x1="69" y1="47" x2="11" y2="87" />
+            <line class="line-red" x1="128" y1="66" x2="68" y2="46" />
+            <line class="line-red" x1="130" y1="66" x2="185" y2="37" />
+            <line class="line-red" x1="185" y1="37" x2="241" y2="77" />
+            <line class="line-red" x1="241" y1="77" x2="295" y2="92" />
+            <line class="line-red" x1="295" y1="92" x2="352" y2="56" />
+          </svg>
+
+          <!-- red dots -->
+
+          <span id="red-dot-1" class="red-dot">
+            <span id="red-dot-hover-1">458</span>
+          </span>
+          <span id="red-dot-2" class="red-dot">
+            <span id="red-dot-hover-2">812</span>
+          </span>
+          <span id="red-dot-3" class="red-dot">
+            <span id="red-dot-hover-3">746</span>
+          </span>
+          <span id="red-dot-4" class="red-dot">
+            <span id="red-dot-hover-4">877</span>
+          </span>
+          <span id="red-dot-5" class="red-dot">
+            <span id="red-dot-hover-5">517</span>
+          </span>
+          <span id="red-dot-6" class="red-dot">
+            <span id="red-dot-hover-6">434</span>
+          </span>
+          <span id="red-dot-7" class="red-dot">
+            <span id="red-dot-hover-7">758</span>
+          </span>
+        </div>
+
+        <!-- BLUE-LINE-CHART -->
+
+        <div class="blue-line-chart">
+          <svg id="line-svg">
+            <line class="line-blue" x1="70" y1="86" x2="9" y2="107" />
+            <line class="line-blue" x1="70" y1="86" x2="128" y2="110" />
+            <line class="line-blue" x1="185" y1="97" x2="128" y2="110" />
+            <line class="line-blue" x1="185" y1="97" x2="241" y2="107" />
+            <line class="line-blue" x1="241" y1="107" x2="295" y2="116" />
+            <line class="line-blue" x1="295" y1="116" x2="352" y2="111" />
+          </svg>
+
+          <!-- blue dots -->
+
+          <span id="blue-dot-1" class="blue-dot">
+            <span id="blue-dot-hover-1">26</span>
+            <span id="blue-dot-2" class="blue-dot">
+              <span id="blue-dot-hover-2">41</span>
+            </span>
+            <span id="blue-dot-3" class="blue-dot">
+              <span id="blue-dot-hover-3">22</span>
+            </span>
+            <span id="blue-dot-4" class="blue-dot">
+              <span id="blue-dot-hover-4">36</span>
+            </span>
+            <span id="blue-dot-5" class="blue-dot">
+              <span id="blue-dot-hover-5">25</span>
+            </span>
+            <span id="blue-dot-6" class="blue-dot">
+              <span id="blue-dot-hover-6">13</span>
+            </span>
+            <span id="blue-dot-7" class="blue-dot">
+              <span id="blue-dot-hover-7">20</span>
+            </span>
+        </div>
+
+        <!-- days of week -->
+
+        <span id="mon">MON</span>
+        <span id="tue">TUE</span>
+        <span id="wed">WED</span>
+        <span id="thu">THU</span>
+        <span id="fri">FRI</span>
+        <span id="sat">SAT</span>
+        <span id="sun">SUN</span>
+      </div>
+  </div>
+  <script src="index.js"></script>
+</body>
 </html>
