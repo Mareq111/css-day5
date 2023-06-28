@@ -228,33 +228,33 @@ body {
 }
 
 #blue-dot-2 {
-  bottom: 20px;
-  left: 60px;
+  bottom: 50px;
+  left: 66px;
 }
 
 #blue-dot-3 {
-  bottom: -3px;
-  left: 117px;
+  bottom: 26px;
+  left: 124px;
 }
 
 #blue-dot-4 {
-  bottom: 10px;
-  left: 176px;
+  bottom: 39px;
+  left: 181px;
 }
 
 #blue-dot-5 {
-  bottom: 0;
-  left: 229px;
+  bottom: 29px;
+  left: 237px;
 }
 
 #blue-dot-6 {
-  bottom: -9px;
-  left: 284px;
+  bottom: 21px;
+  left: 291px;
 }
 
 #blue-dot-7 {
-  bottom: -5px;
-  left: 337px;
+  bottom: 25px;
+  left: 346px;
 }
 [id^="blue-dot-hover-"] {
   visibility: hidden;

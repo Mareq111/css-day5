@@ -121,34 +121,35 @@ seventhRedDot.addEventListener("mouseleave", function () {
 /* first blue dot animation */
 
 const firstBlueDot = document.getElementById("blue-dot-1");
-const secondBlueDotHover = document.getElementById("blue-dot-hover-1");
+const firstBlueDotHover = document.getElementById("blue-dot-hover-1");
 
 firstBlueDot.addEventListener("mouseenter", function () {
-  blueDotHover.style.visibility = "visible";
-  blueDotHover.style.opacity = "1";
-  blueDotHover.style.transform = "translateY(-10px)";
+  firstBlueDotHover.style.visibility = "visible";
+  firstBlueDotHover.style.opacity = "1";
+  firstBlueDotHover.style.transform = "translateY(-10px)";
 });
 
 firstBlueDot.addEventListener("mouseleave", function () {
-  blueDotHover.style.visibility = "hidden";
-  blueDotHover.style.opacity = "0";
-  blueDotHover.style.transform = "translateY(-2px)";
+  firstBlueDotHover.style.visibility = "hidden";
+  firstBlueDotHover.style.opacity = "0";
+  firstBlueDotHover.style.transform = "translateY(-2px)";
 });
 
 /* second blue dot animation */
+
 const secondBlueDot = document.getElementById("blue-dot-2");
-const blueDotHover = document.getElementById("blue-dot-hover-2");
+const secondBlueDotHover = document.getElementById("blue-dot-hover-2");
 
 secondBlueDot.addEventListener("mouseenter", function () {
-  blueDotHover.style.visibility = "visible";
-  blueDotHover.style.opacity = "1";
-  blueDotHover.style.transform = "translateY(-10px)";
+  secondBlueDotHover.style.visibility = "visible";
+  secondBlueDotHover.style.opacity = "1";
+  secondBlueDotHover.style.transform = "translateY(-10px)";
 });
 
 secondBlueDot.addEventListener("mouseleave", function () {
-  blueDotHover.style.visibility = "hidden";
-  blueDotHover.style.opacity = "0";
-  blueDotHover.style.transform = "translateY(-2px)";
+  secondBlueDotHover.style.visibility = "hidden";
+  secondBlueDotHover.style.opacity = "0";
+  secondBlueDotHover.style.transform = "translateY(-2px)";
 });
 
 /* third rbluedot animation */
